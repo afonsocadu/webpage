@@ -37,9 +37,9 @@
 	}
 
 	function displayExperience() {
-		const startDate = '2023-01-01';
+		const startDate = '2022-12-12';
 		const { years, months } = calculateExperience(startDate);
-		const experienceText = `${years} yrs ${months} mos`;
+		const experienceText = `${years} years and ${months} months`;
 
 		$('#experience-duration').text(`Deloitte: ${experienceText}`);
 	}
