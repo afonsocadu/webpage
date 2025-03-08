@@ -41,7 +41,7 @@
 		const { years, months } = calculateExperience(startDate);
 		const experienceText = `${years} years and ${months} months`;
 
-		$('#experience-duration').text(`Deloitte: ${experienceText}`);
+		$('#experience-duration').text(`${experienceText}`);
 	}
 
 	$window.on('load', function() {
